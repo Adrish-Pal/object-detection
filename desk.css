@@ -1,0 +1,59 @@
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Special Elite';
+    text-align: center;
+}
+
+.heading{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: 4px solid black;
+    color: blue;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px whitesmoke;
+    letter-spacing: 3px;
+    padding: 8px;
+}
+
+.btn2{
+    background-color: rgb(28, 252, 185);
+    border-radius: 15px;
+    width: 80px;
+    font-size: 20px;
+    float: right;
+    box-shadow: 3px 3px 3px rgb(225, 241, 4);
+    letter-spacing: 3px;
+}
+
+#status {
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 5px;
+    border: 3px solid white;
+}
+
+.text {
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    border: 3px solid rgb(0, 255, 85);
+}
+
+canvas{
+    border: 8px ridge;
+    border-radius: 20px;
+    animation-name: nice;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nice {
+    from{box-shadow: 6px 6px 6px whitesmoke}
+    to{box-shadow: 6px 6px 6px rgb(255, 0, 119);}
+}
